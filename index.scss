@@ -521,7 +521,7 @@ ul li:hover {
 
 .footer1 {
     color: white;
-    background-image: url(Group9.png);
+    background-image: url(Group\ 9.png);
     height: 60vh;
     background-size: cover;
     display: flex;
@@ -656,9 +656,6 @@ ul li:hover {
             font-size: 18px;
             
         }
-        // .carousel-inner {
-        //     height: 50vh;
-        // }
     }
 
     .subscribe {
@@ -712,10 +709,9 @@ ul li:hover {
     }
     }
     .footer1 {
-        background-image: url(Group9.png);
+        background-image: url(Group\ 9.png);
         // background-size:cover;
         background-position: right;
-        // background-repeat: no-repeat;
         height: 30px;
         
         .text {

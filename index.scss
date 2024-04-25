@@ -17,11 +17,11 @@ $color-white: #fff;
 // inserting fonts start
 @font-face {
     font-family: "Baloo1";
-    src: url(/BalooBhaijaan-Regular.ttf),
+    src: url(BalooBhaijaan-Regular.ttf),
 }
 @font-face {
     font-family: "Baloo2";
-    src: url(/Baloo2-VariableFont_wght.ttf);
+    src: url(Baloo2-VariableFont_wght.ttf);
 }
 
 header a {
@@ -710,7 +710,6 @@ ul li:hover {
     }
     .footer1 {
         background-image: url(Group\ 9.png);
-        // background-size:cover;
         background-position: right;
         height: 30px;
         

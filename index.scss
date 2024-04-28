@@ -28,22 +28,12 @@ header a {
     text-decoration: none;
 }
 
-header {
-    padding: 0 20px;
-    // background-color: #123E52;
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-}
-
-// #brand {
-//     font-size: 18px;
+// header {
+//     padding: 0 20px;
+//     // background-color: #123E52;
+//     height: 50px;
 //     display: flex;
-//     align-items: center;
-
-//     a {
-//         color: #09c372;
-//     }
+//     justify-content: space-between;
 // }
 
 ul {
@@ -58,10 +48,10 @@ ul a {
     color: white;
 }
 
-ul li {
-    padding: 5px;
-    margin-left: 10px;
-}
+// ul li {
+//     padding: 5px;
+//     margin-left: 10px;
+// }
 
 ul li:hover {
     transform: scale(1.1);
@@ -111,11 +101,14 @@ ul li:hover {
     left: 0;
     height: 550px;
     width: 100%;
+
 }
 
-.menu li {
-    margin-bottom: 10px;
-}
+// .menu li {
+//     margin-bottom: 10px;
+// }
+
+
 
 .navdiv {
     display: flex;
@@ -590,6 +583,12 @@ ul li:hover {
    
     #hamburger {
         display: block;
+        margin: 30px 59px;
+    }
+
+    .open .menu {
+        height: 101vh;
+        margin-top: -57px;
     }
 
 
@@ -747,20 +746,29 @@ ul li:hover {
 
 @media only screen and (min-width: 577px) and (max-width: 768px) {
 
+    // .open .menu {
+    //     // margin-left: 50px;
+    //     position: fixed;
+    // }
 
-    #hamburger {
-        display: block;
-        // position: absolute;
-        // top: 0;
-        // right: 0;
-    }
-    #hamburger div {
-        width: 35px;
-        height: 3px;
-        background-color: #123E52;
-        margin: 6px 0;
-        transition: 0.3s;
-    }
+    // .open .menu {
+    //     height: 100vh;
+    //     margin-top: -63px;
+    //     text-align: center;
+    // }
+
+    // #hamburger {
+    //     display: block;
+    //     position: absolute;
+    //     margin: 30px 0px 0px 130px;
+    // }
+    // #hamburger div {
+    //     width: 35px;
+    //     height: 3px;
+    //     background-color: #123E52;
+    //     margin: 6px 0;
+    //     transition: 0.3s;
+    // }
     .main-navbar {
         display: flex;
         justify-content: row;
@@ -789,6 +797,7 @@ ul li:hover {
             margin: auto;
         }
     }
+
 
     .banner-images {
     h1 {
@@ -825,19 +834,20 @@ ul li:hover {
 
     .about {
         display: flex;
-        flex-direction: column;
+        
         h2 {
-            font-size: 30px;
+            font-size: 25px;
         }
         p{
-            font-size: 20px;
+            font-size: 16px;
         }
         img {
-            display: none;
+            width: 250px;
+            height: 250px;
         }
     }
     .Services h2 {
-            font-size: 30px;
+            font-size: 25px;
         }
         .services1 h5 {
             font-size: 16px;
@@ -852,18 +862,18 @@ ul li:hover {
         flex-direction: row;
 
     h2 {
-            font-size: 30px;
+            font-size: 24px;
         }
 
     .button1 button {
-            font-size: 20px;
-            width: 259px;
+            font-size: 14px;
+            width: 200px;
             padding: 10px 20px;
         }
         img {
-            display: none;
-            height: 200px;
-            width: 200px;
+            // display: none;
+            height: 250px;
+            width: 250px;
         }
     }
 
@@ -880,7 +890,7 @@ ul li:hover {
         }
            
         .text-getinto h2 {
-            font-size: 35px;
+            font-size: 25px;
             font-family: "Baloo1";
             font-weight: 400;
         }
@@ -891,7 +901,7 @@ ul li:hover {
 
     .footer1 {
         color: white;
-        background-image: url(Group9.png);
+        background-image: url(Group\ 9.png);
         background-position: 96%;
         height: 300px;
         // height: 25vh;
@@ -905,6 +915,9 @@ ul li:hover {
     }
  }
 
+ .footer1 h2 {
+    font-size: 30px;
+}
  .footer {
     img {
         height: 100px;

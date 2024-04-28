@@ -16,13 +16,6 @@ header a {
   text-decoration: none;
 }
 
-header {
-  padding: 0 20px;
-  height: 50px;
-  display: flex;
-  justify-content: space-between;
-}
-
 ul {
   list-style: none;
   height: 100%;
@@ -33,11 +26,6 @@ ul {
 
 ul a {
   color: white;
-}
-
-ul li {
-  padding: 5px;
-  margin-left: 10px;
 }
 
 ul li:hover {
@@ -87,10 +75,6 @@ ul li:hover {
   left: 0;
   height: 550px;
   width: 100%;
-}
-
-.menu li {
-  margin-bottom: 10px;
 }
 
 .navdiv {
@@ -483,6 +467,11 @@ ul li:hover {
 @media only screen and (max-width: 576px) {
   #hamburger {
     display: block;
+    margin: 30px 59px;
+  }
+  .open .menu {
+    height: 101vh;
+    margin-top: -57px;
   }
   .main-navbar {
     display: flex;
@@ -605,16 +594,6 @@ ul li:hover {
   }
 }
 @media only screen and (min-width: 577px) and (max-width: 768px) {
-  #hamburger {
-    display: block;
-  }
-  #hamburger div {
-    width: 35px;
-    height: 3px;
-    background-color: #123E52;
-    margin: 6px 0;
-    transition: 0.3s;
-  }
   .main-navbar {
     display: flex;
     justify-content: row;
@@ -667,19 +646,19 @@ ul li:hover {
   }
   .about {
     display: flex;
-    flex-direction: column;
   }
   .about h2 {
-    font-size: 30px;
+    font-size: 25px;
   }
   .about p {
-    font-size: 20px;
+    font-size: 16px;
   }
   .about img {
-    display: none;
+    width: 250px;
+    height: 250px;
   }
   .Services h2 {
-    font-size: 30px;
+    font-size: 25px;
   }
   .services1 h5 {
     font-size: 16px;
@@ -692,17 +671,16 @@ ul li:hover {
     flex-direction: row;
   }
   .subscribe h2 {
-    font-size: 30px;
+    font-size: 24px;
   }
   .subscribe .button1 button {
-    font-size: 20px;
-    width: 259px;
+    font-size: 14px;
+    width: 200px;
     padding: 10px 20px;
   }
   .subscribe img {
-    display: none;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
   }
   .getintouch {
     background-image: linear-gradient(#EBECEE 0%, #ECEDEF 0.01%, #F5F6F8 100%);
@@ -715,7 +693,7 @@ ul li:hover {
     display: none;
   }
   .getintouch .text-getinto h2 {
-    font-size: 35px;
+    font-size: 25px;
     font-family: "Baloo1";
     font-weight: 400;
   }
@@ -724,7 +702,7 @@ ul li:hover {
   }
   .footer1 {
     color: white;
-    background-image: url(Group9.png);
+    background-image: url(Group\ 9.png);
     background-position: 96%;
     height: 300px;
   }
@@ -733,6 +711,9 @@ ul li:hover {
   }
   .footer1 .footer {
     display: flex;
+  }
+  .footer1 h2 {
+    font-size: 30px;
   }
   .footer img {
     height: 100px;

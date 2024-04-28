@@ -493,7 +493,7 @@ ul li:hover {
   }
   #hamburger {
     display: block;
-    margin: 30px 59px;
+    margin: 30px 45px;
   }
   .open .menu {
     height: 101vh;

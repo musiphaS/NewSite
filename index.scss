@@ -46,6 +46,7 @@ ul {
 
 ul a {
     color: white;
+    margin-right: 33px;
 }
 
 // ul li {
@@ -185,7 +186,7 @@ ul li:hover {
 .pictures-main {
     display: flex;
     justify-content: space-between;
-    margin-top: 35px;
+    // margin-top: 35px;
 
     div:nth-child(1) {
         align-self: flex-end;
@@ -308,19 +309,26 @@ ul li:hover {
     height: 1px;
     margin-bottom: 20px;
 }
+
+.carousel-indicators button {
+    margin-bottom: -70px;
+    position: relative;
+    top: 30px;
+}
+
 .Services {
     font-family: "Baloo1";
 
     img {
-        width: 414px;
-        padding: 0 10px;
-        margin-top: 20px;
+        width: 318px;
+        // padding: 0 10px;
+        // margin-top: 20px;
     }
 
     h2 {
         font-size: 42px;
         color: #ebecee;
-        padding: 40px 0;
+        margin-bottom: 40px;
     }
 
     .card-title{
@@ -360,7 +368,7 @@ ul li:hover {
 // }
 
 .subscribe {
-    padding: 100px 40px;
+    // padding: 100px 40px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -377,23 +385,23 @@ ul li:hover {
         width: 380px;
         padding: 10px 20px;
         margin-top: 25px;
+        margin-left: 22px;
     }
     h2 {
         font-size: 42px ;
         font-family: "Baloo1";
-        // margin-top: 28px;
-        // font-weight: 400;
-        // line-height: 1.2;
+        margin-left: 20px;
     }
     img {
-        width: 310px;
-        height: 310px;
+        width: 450px;
+        height: 360px;
+        object-fit: cover;
+        margin: 90px 45px;
     }
 }
 
 
 .getintouch {
-    // margin: 80px 0;
     background-image: linear-gradient( #EBECEE 0%, #ECEDEF 0.01%, #F5F6F8 100%);
     display: flex;
     align-items: center;
@@ -580,6 +588,22 @@ ul li:hover {
 }
 
 @media only screen and (max-width:576px) {
+
+    .carousel-indicators button {
+       display: none;
+    }
+    .services1 {
+        background-color: rgb(0, 62, 84);
+        padding: 40px 30px;
+    }
+    .pictures-main .pic1a {
+        margin-top: 10px;
+        height: 200px;
+    }
+
+    .firstnum {
+        height: 124.5px;
+    }
    
     #hamburger {
         display: block;
@@ -599,9 +623,12 @@ ul li:hover {
             display: none;
         }
         img {
-            width: 160px;
-            width: 170px;
-            margin-left: 15px;
+            // width: 160px;
+            width: 143px;
+            height: 80px;
+            // width: 170px;
+            margin-left: 25px;
+            object-fit: contain;
         }
         // .dropdown {
         //     padding: 30px;
@@ -635,7 +662,7 @@ ul li:hover {
     .about {
         display: flex;
         flex-direction: column;
-        padding: 50px 40px;
+        padding: 50px 30px;
 
         h2 {
             font-size: 18px;
@@ -655,14 +682,19 @@ ul li:hover {
         }
     }
 
+    .subscribe .button1 button {
+        margin-top: 5px;
+    }
+
     .subscribe {
         display: flex;
         flex-direction: column;
-        padding: 50px 0px;
+        padding-top: 60px;
 
         img {
             width: 250px;
-            margin-top: 30px;
+            object-fit: contain;
+            margin: 0px 0px;
         }
 
         h2 {
@@ -672,8 +704,9 @@ ul li:hover {
             font-size: 16px;
         }
         button.my-button {
-            font-size: 16px;
-            width: 100%;
+            font-size: 12px;
+            width: 170px;
+            padding: 10px 18px;
         }  
     }
     .getintouch {
@@ -690,7 +723,7 @@ ul li:hover {
             font-size: 18px;
         }
         p {
-            font-size: 16px;
+            font-size: 14px;
         }
         .form-control {
             width: 300px;
@@ -698,17 +731,19 @@ ul li:hover {
 
         }
         button.my-button {
-            font-size: 16px;
-            width: 300px;
-            margin: 0 10px;
+        font-size: 16px;
+        width: 300px;
+        padding: 10px 18px;
         }
         
     }
     }
+    
+
     .footer1 {
         background-image: url(Group\ 9.png);
-        background-position: right;
-        height: 30px;
+        background-position: center;
+        height: 180px;
         
         .text {
             display: flex;

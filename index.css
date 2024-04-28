@@ -27,6 +27,7 @@ ul {
 ul a {
   color: white;
   margin-right: 33px;
+  font-family: "Baloo1";
 }
 
 ul li:hover {
@@ -107,7 +108,7 @@ ul li:hover {
 }
 
 .banner-images {
-  margin: 0 50px;
+  margin: 0 30px;
   overflow: hidden;
 }
 .banner-images h2 {
@@ -480,12 +481,15 @@ ul li:hover {
     background-color: rgb(0, 62, 84);
     padding: 40px 30px;
   }
-  .pictures-main .pic1a {
-    margin-top: 10px;
-    height: 200px;
+  .pics2a {
+    display: none;
   }
-  .firstnum {
-    height: 124.5px;
+  .pic3 {
+    margin-left: 10px;
+    display: none;
+  }
+  .pic4 {
+    display: none;
   }
   #hamburger {
     display: block;
@@ -560,6 +564,7 @@ ul li:hover {
   }
   .subscribe h2 {
     font-size: 18px;
+    margin-right: 24px;
   }
   .subscribe .button1 {
     font-size: 16px;
@@ -613,7 +618,7 @@ ul li:hover {
   }
   .con p {
     margin: 5px 15px 0 5px;
-    font-size: 13px;
+    font-size: 12px;
   }
   .footer {
     -o-object-fit: cover;

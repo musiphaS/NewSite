@@ -6,11 +6,11 @@
 
 @font-face {
   font-family: "Baloo1";
-  src: url(/BalooBhaijaan-Regular.ttf);
+  src: url(BalooBhaijaan-Regular.ttf);
 }
 @font-face {
   font-family: "Baloo2";
-  src: url(/Baloo2-VariableFont_wght.ttf);
+  src: url(Baloo2-VariableFont_wght.ttf);
 }
 header a {
   text-decoration: none;

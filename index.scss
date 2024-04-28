@@ -140,19 +140,16 @@ ul li:hover {
     color: $color-secondary;
 }
 
+.banner-images h1 {
+    color: rgb(0, 62, 84);
+    font-size: 90px;
+    line-height: 1.2;
+    font-family: "Baloo1";
+}
+
 .banner-images {
     margin:0 50px;
-    // padding-left:50px;
-
-
     overflow: hidden;
-
-    h1{
-        color:  $color-text;
-        font-size: 90px;
-        line-height: 1.2;
-        font-family: "Baloo1";
-    }
     h2 {
         font-size: 45px;
         line-height: 1.2;

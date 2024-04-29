@@ -554,7 +554,7 @@ ul li:hover {
   .subscribe {
     display: flex;
     flex-direction: column;
-    padding-top: 60px;
+    padding-top: 38px;
   }
   .subscribe img {
     width: 300px;

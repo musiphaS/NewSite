@@ -202,7 +202,7 @@ ul li:hover {
         }
     .pics2a {
         object-fit: cover;
-        width: 305px;
+        width: 350px;
     margin-left: 10px;
         }
     .pic3 {
@@ -211,7 +211,7 @@ ul li:hover {
     .pic4 {
         object-fit: cover;
         margin-left: 10px;
-        height: 395px;
+        height: 455px;
         width:280px;
         }
 }
@@ -219,6 +219,8 @@ ul li:hover {
 .pictures-main2 {
     display: flex;
     margin-top: 10px;
+    opacity: 20%;
+
     // background-image: linear-gradient(grey, #fff);
 
     // .under-1 {
@@ -228,7 +230,7 @@ ul li:hover {
     .under-2 {
         width:330px;
         margin-left: 10px;
-        box-shadow: 0px 60px 150px white inset;
+        // box-shadow: 0px 60px 150px white inset;
         // opacity: 50%;
     }
     .under-3 {
@@ -792,6 +794,7 @@ ul li:hover {
 
 @media only screen and (min-width: 577px) and (max-width: 768px) {
 
+
     // .open .menu {
     //     // margin-left: 50px;
     //     position: fixed;
@@ -805,8 +808,7 @@ ul li:hover {
 
     // #hamburger {
     //     display: block;
-    //     position: absolute;
-    //     margin: 30px 0px 0px 130px;
+        
     // }
     // #hamburger div {
     //     width: 35px;
@@ -833,6 +835,9 @@ ul li:hover {
             font-size: 25px;
             display: none;
         }
+        ul {
+            display: block;
+        }
 
 
         .navdiv {
@@ -845,14 +850,16 @@ ul li:hover {
     }
 
 
+    .banner-images h2 {
+        font-size: 40px;
+    }
+    .banner-images .h2-color {
+        font-size: 50px;
+    }
     .banner-images {
     h1 {
-            font-size: 60px;
+            font-size: 50px;
             line-height: 1;
-        }
-
-    h2 {
-            font-size: 40px;
         }
     h4 {
             font-size: 30px;
@@ -869,9 +876,10 @@ ul li:hover {
             display: none;
         }
     .pics2a {
-            height: 364px;
+            height: 369px;
             width: 356px;
             object-fit: cover;
+            margin-right: 70px;
         }
     .pictures-main2{
         display: none;

@@ -557,13 +557,13 @@ ul li:hover {
     padding-top: 60px;
   }
   .subscribe img {
-    width: 250px;
+    width: 300px;
     -o-object-fit: contain;
        object-fit: contain;
     margin: 0px 0px;
   }
   .subscribe h2 {
-    font-size: 18px;
+    font-size: 21.5px;
     margin-right: 24px;
   }
   .subscribe .button1 {

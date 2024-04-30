@@ -296,7 +296,7 @@ ul li:hover {
 .line2 {
     background-color: $color-secondary;
     width: 390px;
-    height: 1px;
+    height: 2px;
     margin-bottom: 20px;
 }
 
@@ -310,7 +310,7 @@ ul li:hover {
 .line4 {
     background-color: $color-secondary;
     width: 390px;
-    height: 1px;
+    height: 2px;
     margin-bottom: 20px;
 }
 
@@ -876,10 +876,11 @@ ul li:hover {
             display: none;
         }
     .pics2a {
-            height: 369px;
-            width: 356px;
-            object-fit: cover;
-            margin-right: 70px;
+        height: 369px;
+        width: 395px;
+        object-fit: cover;
+        margin-right: 70px;
+        margin-bottom: 31.4px;
         }
     .pictures-main2{
         display: none;
@@ -899,6 +900,16 @@ ul li:hover {
             width: 250px;
             height: 250px;
         }
+    }
+
+    .Services .card {
+        width: 228px;
+    }
+    .Services img {
+        width: 227px;
+    }
+    .line2 {
+        width: 206px;
     }
     .Services h2 {
             font-size: 25px;
@@ -1031,6 +1042,10 @@ ul li:hover {
 // }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .line2 {
+        width: 267px;
+    }
 
     .pictures-main2 .under-3 {
         width: 257px;

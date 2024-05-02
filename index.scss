@@ -810,12 +810,25 @@ ul li:hover {
     //     display: block;
         
     // }
+
+    // #hamburger div {
+    //     position: relative;
+    //     bottom: 50px;
+    // }
+
+    // ul a {
+    //     display: none;
+    // }
     // #hamburger div {
     //     width: 35px;
     //     height: 3px;
     //     background-color: #123E52;
     //     margin: 6px 0;
     //     transition: 0.3s;
+    // }
+
+    // .list-a {
+    //     display: none;
     // }
     .main-navbar {
         display: flex;
@@ -825,7 +838,8 @@ ul li:hover {
 
         img {
             height: 100px;
-            margin-right: 310px;
+            position: relative;
+            right: 275px;
         }
 
         .navdiv li a {
@@ -833,10 +847,13 @@ ul li:hover {
             text-decoration: none;
             color: rgb(0, 62, 84);
             font-size: 25px;
-            display: none;
+            // display: none;
         }
         ul {
-            display: block;
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 0;
         }
 
 

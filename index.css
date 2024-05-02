@@ -635,17 +635,20 @@ ul li:hover {
   }
   .main-navbar img {
     height: 100px;
-    margin-right: 310px;
+    position: relative;
+    right: 275px;
   }
   .main-navbar .navdiv li a {
     margin-right: 20px;
     text-decoration: none;
     color: rgb(0, 62, 84);
     font-size: 25px;
-    display: none;
   }
   .main-navbar ul {
     display: block;
+    position: absolute;
+    top: 20px;
+    right: 0;
   }
   .main-navbar .navdiv {
     display: flex;

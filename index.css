@@ -20,6 +20,14 @@ header a {
   height: 136px;
 }
 
+.fa-solid {
+  font-size: 45px;
+  color: white;
+  position: relative;
+  left: 105px;
+  bottom: 38px;
+}
+
 ul {
   list-style: none;
   height: 100%;
@@ -32,6 +40,8 @@ ul a {
   color: white;
   margin-right: 33px;
   font-family: "Baloo1";
+  position: relative;
+  bottom: 80px;
 }
 
 ul li:hover {
@@ -515,10 +525,7 @@ ul li:hover {
   }
   #hamburger {
     display: block;
-    margin: 29px 42px;
-    position: relative;
-    right: 10px;
-    top: 10px;
+    margin: 29px 50px;
   }
   .open .menu {
     height: 101vh;

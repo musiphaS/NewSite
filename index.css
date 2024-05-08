@@ -16,6 +16,10 @@ header a {
   text-decoration: none;
 }
 
+.firstnum {
+  height: 136px;
+}
+
 ul {
   list-style: none;
   height: 100%;
@@ -156,6 +160,7 @@ ul li:hover {
 }
 .pictures-main .pic1a {
   margin-top: 10px;
+  width: 298px;
 }
 .pictures-main .pics2a {
   -o-object-fit: cover;
@@ -283,6 +288,7 @@ ul li:hover {
 .Services .card {
   background-color: #123E52;
   border: none;
+  margin-bottom: 15px;
 }
 .Services .card-text {
   color: #ebecee;
@@ -484,12 +490,18 @@ ul li:hover {
   }
 }
 @media only screen and (max-width: 576px) {
+  .firstnum {
+    height: 140px;
+  }
+  .pictures-main .pic1a {
+    width: 308px;
+  }
   .carousel-indicators button {
     display: none;
   }
   .services1 {
     background-color: rgb(0, 62, 84);
-    padding: 40px 30px;
+    padding: 30px 30px;
   }
   .pics2a {
     display: none;
@@ -503,7 +515,10 @@ ul li:hover {
   }
   #hamburger {
     display: block;
-    margin: 30px 42px;
+    margin: 29px 42px;
+    position: relative;
+    right: 10px;
+    top: 10px;
   }
   .open .menu {
     height: 101vh;
@@ -517,11 +532,13 @@ ul li:hover {
     display: none;
   }
   .main-navbar img {
-    width: 143px;
+    width: 110px;
     height: 80px;
     margin-left: 25px;
     -o-object-fit: contain;
        object-fit: contain;
+    position: relative;
+    right: 5px;
   }
   .banner-images {
     line-height: 1.2;
@@ -557,6 +574,7 @@ ul li:hover {
   }
   .Services h2 {
     font-size: 18px;
+    margin-bottom: 25px;
   }
   .subscribe .button1 button {
     margin-top: 5px;
@@ -612,6 +630,8 @@ ul li:hover {
     background-image: url(Group\ 9.png);
     background-position: center;
     height: 180px;
+    position: relative;
+    bottom: 25px;
   }
   .footer1 .text {
     display: flex;
@@ -630,12 +650,9 @@ ul li:hover {
     margin: 5px 15px 0 5px;
     font-size: 12px;
   }
-  .footer {
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
   .footer img {
-    width: 50%;
+    width: 137px;
+    height: 70px;
   }
 }
 @media only screen and (min-width: 577px) and (max-width: 768px) {

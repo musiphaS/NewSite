@@ -26,29 +26,22 @@ $color-white: #fff;
 
 header a {
     text-decoration: none;
+    color: white;
 }
 
 .firstnum {
     height: 136px;
 }
 
-.fa-solid {
-    font-size: 45px;
-    color: white;
-    position: relative;
-    left: 105px;
-    bottom: 38px;
+
+
+header {
+    padding: 0 20px;
+    // background-color: #123E52;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
 }
-
-
-
-// header {
-//     padding: 0 20px;
-//     // background-color: #123E52;
-//     height: 50px;
-//     display: flex;
-//     justify-content: space-between;
-// }
 
 ul {
     list-style: none;
@@ -58,13 +51,6 @@ ul {
     justify-content: space-around;
 }
 
-ul a {
-    color: white;
-    margin-right: 33px;
-    font-family: "Baloo1";
-    position: relative;
-    bottom: 80px;
-}
 
 // ul li {
 //     padding: 5px;
@@ -328,6 +314,8 @@ ul li:hover {
     width: 390px;
     height: 2px;
     margin-bottom: 20px;
+    position: relative;
+    right: 15px;
 }
 
 .line3 {
@@ -342,6 +330,8 @@ ul li:hover {
     width: 390px;
     height: 2px;
     margin-bottom: 20px;
+    position: relative;
+    right: 15px;
 }
 
 .carousel-indicators button {
@@ -369,7 +359,14 @@ ul li:hover {
 
     .card-title{
         color: $color-secondary;
+        position: relative;
+        right: 15px;
     }
+
+    // .Services .card-title {
+    //     color: rgb(215, 123, 65);
+    //     
+    // }
     .card {
             background-color: #123E52;
             border: none;
@@ -378,8 +375,13 @@ ul li:hover {
    
     .card-text {
         color: #ebecee;
-    }
 
+    }
+    .card-text:last-child {
+        position: relative;
+        right: 15px;
+    }
+    
     p{
         font-family: "Baloo2";
         font-size: 17px;
@@ -659,9 +661,16 @@ ul li:hover {
     }
 
     .open .menu {
-        height: 101vh;
-        margin-top: -57px;
+        height: 102vh;
+        margin-top: -63px;
     }
+    ul a {
+            color: white;
+            margin-right: 33px;
+            font-family: "Baloo1";
+            position: relative;
+            bottom: 80px;
+        }
 
 
     .main-navbar {
@@ -942,7 +951,8 @@ ul li:hover {
         width: 395px;
         object-fit: cover;
         margin-right: 70px;
-        margin-bottom: 31.4px;
+        position: relative;
+        top: 1px;
         }
     .pictures-main2{
         display: none;
@@ -1031,7 +1041,6 @@ ul li:hover {
         background-image: url(Group\ 9.png);
         background-position: 96%;
         height: 300px;
-        // height: 25vh;
         
         p {
             margin-left: 30px;
@@ -1110,8 +1119,11 @@ ul li:hover {
     }
 
     .pictures-main2 .under-3 {
-        width: 257px;
-        // margin-left: 10px;
+        width: 296px;
+    }
+
+    .banner-images h1 {
+        font-size: 65px;
     }
  
     .pictures-main {
@@ -1148,6 +1160,10 @@ ul li:hover {
     
     .services1 h5 {
         font-size: 30px;
+    }
+    .pictures-main .pics2a {
+        position: relative;
+        top: 0px;
     }
 
 

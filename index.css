@@ -14,18 +14,18 @@
 }
 header a {
   text-decoration: none;
+  color: white;
 }
 
 .firstnum {
   height: 136px;
 }
 
-.fa-solid {
-  font-size: 45px;
-  color: white;
-  position: relative;
-  left: 105px;
-  bottom: 38px;
+header {
+  padding: 0 20px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
 ul {
@@ -34,14 +34,6 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-around;
-}
-
-ul a {
-  color: white;
-  margin-right: 33px;
-  font-family: "Baloo1";
-  position: relative;
-  bottom: 80px;
 }
 
 ul li:hover {
@@ -259,6 +251,8 @@ ul li:hover {
   width: 390px;
   height: 2px;
   margin-bottom: 20px;
+  position: relative;
+  right: 15px;
 }
 
 .line3 {
@@ -273,6 +267,8 @@ ul li:hover {
   width: 390px;
   height: 2px;
   margin-bottom: 20px;
+  position: relative;
+  right: 15px;
 }
 
 .carousel-indicators button {
@@ -294,6 +290,8 @@ ul li:hover {
 }
 .Services .card-title {
   color: rgb(215, 123, 65);
+  position: relative;
+  right: 15px;
 }
 .Services .card {
   background-color: #123E52;
@@ -302,6 +300,10 @@ ul li:hover {
 }
 .Services .card-text {
   color: #ebecee;
+}
+.Services .card-text:last-child {
+  position: relative;
+  right: 15px;
 }
 .Services p {
   font-family: "Baloo2";
@@ -528,8 +530,15 @@ ul li:hover {
     margin: 29px 50px;
   }
   .open .menu {
-    height: 101vh;
-    margin-top: -57px;
+    height: 102vh;
+    margin-top: -63px;
+  }
+  ul a {
+    color: white;
+    margin-right: 33px;
+    font-family: "Baloo1";
+    position: relative;
+    bottom: 80px;
   }
   .main-navbar {
     display: flex;
@@ -719,7 +728,8 @@ ul li:hover {
     -o-object-fit: cover;
        object-fit: cover;
     margin-right: 70px;
-    margin-bottom: 31.4px;
+    position: relative;
+    top: 1px;
   }
   .banner-images .pictures-main2 {
     display: none;
@@ -813,7 +823,10 @@ ul li:hover {
     width: 267px;
   }
   .pictures-main2 .under-3 {
-    width: 257px;
+    width: 296px;
+  }
+  .banner-images h1 {
+    font-size: 65px;
   }
   .pictures-main .pic4 {
     display: none;
@@ -838,6 +851,10 @@ ul li:hover {
   }
   .services1 h5 {
     font-size: 30px;
+  }
+  .pictures-main .pics2a {
+    position: relative;
+    top: 0px;
   }
   .subscribe {
     padding: 80px 40px;

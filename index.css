@@ -210,28 +210,30 @@ ul li:hover {
 }
 
 .about {
-  padding: 100px 40px;
+  padding: 75px 88px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .about h2 {
   color: rgb(215, 123, 65);
-  font-size: 42px;
+  font-size: 40px;
   font-family: "Baloo1";
   line-height: 1.2;
 }
 .about p {
   line-height: 1.4;
-  margin-top: 15px;
   color: rgb(0, 62, 84);
-  font-weight: 500;
-  font-size: 19px;
+  font-size: 18px;
   font-family: "Baloo2";
   margin-top: 20px;
 }
 .about img {
-  width: 541px;
+  width: 450px;
+  height: 470px;
+  margin-left: 35px;
+  position: relative;
+  left: 50px;
 }
 
 .services1 {
@@ -284,7 +286,7 @@ ul li:hover {
   width: 405px;
 }
 .Services h2 {
-  font-size: 42px;
+  font-size: 40px;
   color: #ebecee;
   margin-bottom: 40px;
 }
@@ -319,6 +321,7 @@ ul li:hover {
 }
 
 .subscribe {
+  padding: 50px 30px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -332,20 +335,32 @@ ul li:hover {
   font-size: 25px;
   width: 380px;
   padding: 10px 20px;
-  margin-top: 25px;
   margin-left: 22px;
 }
 .subscribe h2 {
-  font-size: 42px;
+  font-size: 40px;
   font-family: "Baloo1";
   margin-left: 20px;
 }
 .subscribe img {
-  width: 450px;
-  height: 360px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  width: 500px;
   margin: 90px 45px;
+}
+
+.subcritext {
+  font-size: 20px;
+}
+
+.formtext1 {
+  position: absolute;
+  margin-top: -52px;
+  margin-left: 28px;
+}
+
+.formtext2 {
+  position: absolute;
+  margin-top: -126px;
+  margin-left: 28px;
 }
 
 .getintouch {
@@ -365,9 +380,10 @@ ul li:hover {
 }
 .getintouch img {
   height: 650px;
-  width: 400px;
-  margin-left: 20px;
+  width: 580px;
   margin-top: 60px;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 .text-getinto {
@@ -375,7 +391,7 @@ ul li:hover {
   color: rgb(215, 123, 65);
 }
 .text-getinto h2 {
-  font-size: 42px;
+  font-size: 40px;
   font-family: "Baloo1";
   font-weight: 400;
 }
@@ -384,7 +400,6 @@ ul li:hover {
   font-family: "Baloo2";
   line-height: 1.2;
   margin-bottom: 30px;
-  font-weight: 550;
 }
 .text-getinto .footer1 h2 {
   font-size: 42px;
@@ -400,16 +415,16 @@ ul li:hover {
   font-family: "Baloo1";
   font-size: 15px;
   color: rgb(0, 62, 84);
-  width: 450px;
+  width: 560px;
 }
 
 .button2 button {
   padding: 9px 20px;
   border: 2px solid rgb(0, 62, 84);
-  width: 447px;
+  width: 560px;
   color: #fff;
   font-family: "Baloo2";
-  font-weight: 700;
+  font-weight: 500;
   font-size: 20px;
   background-color: rgb(0, 62, 84);
 }
@@ -462,12 +477,12 @@ ul li:hover {
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  padding: 100px 40px;
+  padding: 50px;
   font-family: "Baloo1";
 }
 .footer1 h2 {
   display: block;
-  font-size: 35px;
+  font-size: 40px;
   font-family: "Baloo1";
   font-weight: 400;
   margin-bottom: 8px;
@@ -488,12 +503,17 @@ ul li:hover {
   margin-left: 20px;
   font-family: "Baloo2";
   font-weight: 700;
+  font-size: 20px;
 }
 .footer1 .icon-1 {
   margin-right: 20px;
 }
 .footer1 .icon-2 {
   margin-right: 20px;
+}
+
+.fa-solid {
+  font-size: 25px;
 }
 
 @media only screen and (min-width: 575.98px) {
@@ -598,7 +618,7 @@ ul li:hover {
   .subscribe {
     display: flex;
     flex-direction: column;
-    padding-top: 38px;
+    padding: 55px 0px;
   }
   .subscribe img {
     width: 300px;
@@ -607,16 +627,32 @@ ul li:hover {
     margin: 0px 0px;
   }
   .subscribe h2 {
-    font-size: 21.5px;
-    margin-right: 24px;
+    font-size: 20px;
   }
   .subscribe .button1 {
     font-size: 16px;
   }
   .subscribe button.my-button {
     font-size: 12px;
-    width: 170px;
+    width: 200px;
     padding: 10px 18px;
+  }
+  .formtext1 {
+    position: absolute;
+    margin-left: 48px;
+  }
+  .formtext2 {
+    position: absolute;
+    margin-left: 48px;
+  }
+  .subcritext {
+    font-size: 20px;
+    position: relative;
+    right: 23px;
+    bottom: 19px;
+  }
+  .fa-solid {
+    font-size: 15px;
   }
   .getintouch img {
     display: none;
@@ -655,7 +691,7 @@ ul li:hover {
     justify-content: space-evenly;
   }
   .footer1 h2 {
-    font-size: 18px;
+    font-size: 16px;
   }
   .con {
     display: flex;
@@ -663,7 +699,6 @@ ul li:hover {
     justify-content: space-evenly;
   }
   .con p {
-    margin: 5px 15px 0 5px;
     font-size: 12px;
   }
   .footer img {
@@ -679,19 +714,17 @@ ul li:hover {
   .main-navbar img {
     height: 100px;
     position: relative;
-    right: 275px;
+    right: 252px;
+  }
+  .main-navbar ul {
+    position: absolute;
+    right: 17px;
   }
   .main-navbar .navdiv li a {
     margin-right: 20px;
     text-decoration: none;
     color: rgb(0, 62, 84);
     font-size: 25px;
-  }
-  .main-navbar ul {
-    display: block;
-    position: absolute;
-    top: 20px;
-    right: 0;
   }
   .main-navbar .navdiv {
     display: flex;
@@ -729,13 +762,14 @@ ul li:hover {
        object-fit: cover;
     margin-right: 70px;
     position: relative;
-    top: 1px;
+    top: -6px;
   }
   .banner-images .pictures-main2 {
     display: none;
   }
   .about {
     display: flex;
+    padding: 32px;
   }
   .about h2 {
     font-size: 25px;
@@ -746,6 +780,11 @@ ul li:hover {
   .about img {
     width: 250px;
     height: 250px;
+  }
+  .about img {
+    width: 250px;
+    height: 250px;
+    display: none;
   }
   .Services .card {
     width: 228px;
@@ -768,6 +807,7 @@ ul li:hover {
   .subscribe {
     display: flex;
     flex-direction: row;
+    padding: 5px;
   }
   .subscribe h2 {
     font-size: 24px;
@@ -780,6 +820,9 @@ ul li:hover {
   .subscribe img {
     height: 250px;
     width: 250px;
+  }
+  .fa-solid {
+    font-size: 20px;
   }
   .getintouch {
     background-image: linear-gradient(#EBECEE 0%, #ECEDEF 0.01%, #F5F6F8 100%);
@@ -834,11 +877,34 @@ ul li:hover {
   .pictures-main2 .under-4 {
     display: none;
   }
+  .getintouch img {
+    height: 535px;
+    width: 380px;
+  }
   .about h2 {
-    font-size: 35px;
+    font-size: 30px;
   }
   .about img {
     width: 300px;
+    height: 330px;
+  }
+  .about p {
+    font-size: 16px;
+  }
+  .footer1 h2 {
+    font-size: 30px;
+  }
+  .footer1 p {
+    font-size: 16px;
+  }
+  .text-getinto .form-control {
+    width: 460px;
+  }
+  .fa-solid {
+    font-size: 15px;
+  }
+  .button2 button {
+    width: 460px;
   }
   .Services img {
     width: 290px;
@@ -873,5 +939,21 @@ ul li:hover {
   .footer1 {
     background-position: right;
     height: 300px;
+  }
+}
+@media only screen and (min-width: 1399.98px) {
+  .pictures-main .pic3 {
+    width: 422px;
+  }
+  .pictures-main2 .under-4 {
+    width: 486px;
+    margin-left: 10px;
+    height: 55px;
+  }
+  .about {
+    padding: 75px 135px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }/*# sourceMappingURL=index.css.map */

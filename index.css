@@ -496,12 +496,12 @@ ul li:hover {
   margin-right: 20px;
 }
 
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 575.98px) {
   .header {
     display: none;
   }
 }
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 575.98px) {
   .firstnum {
     height: 140px;
   }
@@ -671,7 +671,7 @@ ul li:hover {
     height: 70px;
   }
 }
-@media only screen and (min-width: 577px) and (max-width: 768px) {
+@media only screen and (min-width: 577px) and (max-width: 992px) {
   .main-navbar {
     display: flex;
     justify-content: row;
@@ -818,7 +818,7 @@ ul li:hover {
     height: 100px;
   }
 }
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (min-width: 993px) and (max-width: 1024px) {
   .line2 {
     width: 267px;
   }

@@ -31,6 +31,8 @@ header a {
 
 .firstnum {
     height: 136px;
+    width: 262px;
+    margin-left: 36px;
 }
 
 
@@ -132,16 +134,20 @@ ul li:hover {
         text-decoration: none;
         color: $color-text;
     }
+    li a:hover {
+        color: $color-secondary;
+    }
 }
-.contact-color {
-    color: $color-secondary;
-}
+// .contact-color {
+//     // color: $color-secondary;
+// }
 
 .banner-images h1 {
     color: rgb(0, 62, 84);
     font-size: 90px;
     line-height: 1.2;
     font-family: "Baloo1";
+    margin-left: 30px;
 }
 
 .banner-images {
@@ -154,6 +160,7 @@ ul li:hover {
         font-family: "Baloo1";
         font-weight: 400;
         color:  $color-text;
+        margin-left: 35px;
     }
     .h2-color {
         color: $color-secondary;
@@ -178,10 +185,15 @@ ul li:hover {
         height: 3px;
         display: inline-block;
         margin-bottom: 5px;
+        margin-left: 60px;
+        position: relative;
+        right: 16px;
     }
     h4 {
         color: $color-text;
         font-family: "Baloo1";
+        font-size: 19px;
+        margin-bottom: 40px;
 
     }
     
@@ -199,36 +211,36 @@ ul li:hover {
         align-self: flex-end;
     }
     .pic1a {
-         margin-top: 10px;
-         width: 298px;
+        margin-top: 8px;
+        width: 262px;
+        height: 218px;
+        margin-left: 36px;
+        object-fit: cover;
         }
 
     .pics2a {
-    object-fit: cover;
-    width: 290px;
-    margin-left: 10px;
+    width: 285px;
+    height: 390px;
     position: relative;
-    top: 35px;
-    height: 420px;
-    right: 0px;
+    right: 15%;
+    top: 0px;
     }
 
 
     .pic3 {
-    margin-left: 10px;
-    height: 270px;
-    width: 340px;
+    height: 255px;
+    width: 337px;
     position: relative;
-    right: 1px;
-        }
+    right: 9%;
+    }
 
     .pic4 {
-    object-fit: cover;
     margin-left: 10px;
-    height: 455px;
-    width: 340px;
+    height: 390px;
+    width: 305px;
     position: relative;
-    right: 5px;
+    right: 30px;
+    object-fit: cover;
     }
 }
 
@@ -239,9 +251,11 @@ ul li:hover {
 
     // background-image: linear-gradient(grey, #fff);
 
-    // .under-1 {
-    // //    opacity: 50%;
-    // }
+    .under-1 {
+    width: 262px;
+    height: 55px;
+    margin-left: 36px;
+    }
 
     .under-2 {
         width:330px;
@@ -250,9 +264,9 @@ ul li:hover {
         // opacity: 50%;
     }
     .under-3 {
-        width: 230px;
-        margin-left: 10px;
-        // opacity: 50%;
+    width: 183px;
+    margin-left: 10px;
+    height: 54px;
     }
     .under-4 {
         width: 418px;
@@ -281,8 +295,8 @@ ul li:hover {
         line-height: 1.4;
         // margin-top: 15px;
         color: $color-text;
-        // font-weight: 500;
-        font-size: 18px;
+        font-weight: 500;
+        font-size: 20px;
         font-family: "Baloo2";
         margin-top: 20px;
     }
@@ -292,6 +306,7 @@ ul li:hover {
     margin-left: 35px;
     position: relative;
     left: 50px;
+    object-fit: cover;
     }
     
 }
@@ -306,7 +321,9 @@ ul li:hover {
     }
 
     h5 {
-        font-family: "Baloo1";
+        font-family: "Baloo2";
+        font-weight: 700;
+        font-size: 25px;
     }
    
 }
@@ -350,7 +367,9 @@ ul li:hover {
     font-family: "Baloo1";
 
     img {
-        width: 405px;
+        width: 395px;
+        height: 174px;
+        margin: 9px 9px 0px 9px;
     }
 
     h2 {
@@ -419,12 +438,11 @@ ul li:hover {
         border: 2px solid  rgb(0 62 84);
         background-color:  rgb(0 62 84);
         color: #fff;
-        font-family: "Baloo1";
-        font-size: 25px;
-        // font-weight: 700;
+        font-family: "Baloo2";
+        font-size: 20px;
+        font-weight: 700;
         width: 380px;
-        padding: 10px 20px;
-        // margin-top: 25px;
+        padding: 20px 10px;
         margin-left: 22px;
     }
     h2 {
@@ -477,7 +495,7 @@ ul li:hover {
 
     img {
         height: 650px;
-        width: 580px;
+        width: 495px;
         margin-top: 60px;
         object-fit: fill;
     }
@@ -518,8 +536,8 @@ ul li:hover {
     }
     .form-control {
         padding: 17px 27px;
-        font-family: "Baloo1";
-        font-size: 15px;
+        font-family: "Baloo2";
+        font-size: 20px;
         color: rgb(0 62 84);
         width: 560px;
     }
@@ -527,14 +545,14 @@ ul li:hover {
 }
 
 .button2 button {
-    padding: 9px 20px;
-    border: 2px solid  rgb(0 62 84);
+    padding: 20px 10px;
+    border: 2px solid rgb(0, 62, 84);
     width: 560px;
     color: #fff;
     font-family: "Baloo2";
-    font-weight: 500;
+    font-weight: 700;
     font-size: 20px;
-    background-color:rgb(0 62 84);
+    background-color: rgb(0, 62, 84);
 }
 
 
@@ -600,12 +618,16 @@ ul li:hover {
    .con {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: start;
+    // justify-content: space-evenly;
+    // align-items: start;
 
     i {
         margin: 5px 0 10px 0;
     }
+   }
+
+   .icon-con2 {
+    margin-left: 86px;
    }
 //    .text {
 //     display: flex;
@@ -625,24 +647,24 @@ ul li:hover {
    }
 
    p{
-    margin-left: 20px;
+    margin-left: 48px;
     font-family: "Baloo2";
     font-weight: 700;
     font-size: 20px;
+    position: relative;
+    bottom: 37px;
    }
    
-   .icon-1 {
-    margin-right: 20px;
-   }
+   
 
-   .icon-2 {
-    margin-right: 20px;
-   }
+   
 }
 
 .fa-solid {
     font-size: 25px;
+    color: white;
 }
+
 
 @media only screen and (min-width:575.98px) {
     .header {
@@ -690,6 +712,7 @@ ul li:hover {
     .open .menu {
         height: 102vh;
         margin-top: -63px;
+        z-index: 1;
     }
     ul a {
             color: white;
@@ -799,15 +822,7 @@ ul li:hover {
         }  
     }
 
-    .formtext1 {
-        position: absolute;
-        margin-left: 48px;
-    }
 
-    .formtext2 {
-        position: absolute;
-        margin-left: 48px;
-    }
 
     .subcritext {
         font-size: 20px;
@@ -827,7 +842,7 @@ ul li:hover {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 50px 0;
+        padding: 35px 0;
 
         h2 {
             font-size: 18px;
@@ -852,9 +867,8 @@ ul li:hover {
     .footer1 {
         background-image: url(Group\ 9.png);
         background-position: center;
-        height: 180px;
-        position: relative;
-        bottom: 25px;
+        height: 25vh;
+        padding: 15px 35px;
         
         .text {
             display: flex;
@@ -864,6 +878,7 @@ ul li:hover {
 
         h2 {
             font-size: 16px;
+            margin-top: 35px;
         }
         
 
@@ -876,7 +891,7 @@ ul li:hover {
         
         p {
             // margin: 5px 15px 0 5px;
-            font-size: 12px;
+            font-size: 11px;
             margin-left: 8px;
         }
     }
@@ -888,9 +903,15 @@ ul li:hover {
             // width: 50%;
         width: 137px;
         height: 70px;
-        
         }
-       
+    }
+    .footer1 p {
+        position: relative;
+        bottom: 25px;
+        left: 15px;
+    }
+    .footer1 .icon-con2 {
+        margin-left: 35px;
     }
 }
 
@@ -1103,12 +1124,18 @@ ul li:hover {
         
         p {
             margin-left: 30px;
+            font-size: 18px;
         }
+
 
     .footer{
         display: flex;
     }
  }
+
+ .footer1 .icon-con2 {
+    margin-left: 40px;
+}
 
  .footer1 h2 {
     font-size: 30px;
@@ -1218,7 +1245,9 @@ ul li:hover {
     }
 
     .footer1 p {
-        font-size: 16px;
+        margin-left: 30px;
+        position: relative;
+        bottom: 28px;
     }
       .text-getinto .form-control {
         width: 460px;
@@ -1279,12 +1308,29 @@ ul li:hover {
 }
 
 @media only screen and (min-width: 1399.98px) {
+
+
+    .footer1 {
+        height: 43vh;
+        padding: 95px;
+    }
+    .pictures-main2 .under-3 {
+    width: 207px;
+    }
+
+    .pictures-main .pics2a {
+    position: relative;
+    right: 17%;
+    }
+
     .pictures-main .pic3 {
         width: 422px;
+        position: relative;
+        right: 8%;
     }
 
     .Services img {
-        width: 437px;
+        width: 415px;
     }
     // .pictures-main2 .under-4 {
     //     width: 418px;
@@ -1298,10 +1344,13 @@ ul li:hover {
         height: 55px;
     }
     .about {
-        padding: 75px 135px;
+        padding: 75px 95px;
         display: flex;
         align-items: center;
         justify-content: space-between;
+    }
+    .about p {
+    font-size: 22px;
     }
 }
 

@@ -677,17 +677,16 @@ ul li:hover {
     header {
         padding: 0 5px;
     }
-
     .firstnum {
         height: 140px;
-        width: 275px;
-        margin-left: 19px;
+        width: 310px;
+        margin-left: 3px;
     }
 
     .pictures-main .pic1a {
-        width: 276px;
+        width: 310px;
         height: 215px;
-        margin-left: 19px;
+        margin-left: 3px;
     }
 
     .carousel-indicators button {
@@ -746,16 +745,43 @@ ul li:hover {
             right: 5px;
         }
     }
+
+    .Services .card-title {
+        // color: rgb(215, 123, 65);
+        position: relative;
+        right: 6px;
+    }
+    .Services .card-text:last-child {
+        position: relative;
+        right: 6px;
+    }
+    .line2 {
+        width: 295px;
+        position: relative;
+        right: 6px;
+    }
+    .line4 {
+    width: 295px;
+    position: relative;
+    right: 6px;
+}
     
     .services1 h5 {
         font-size: 20px;
     }
 
 
+    .small-phone {
+        position: relative;
+        right: 31px;
+    }
     .banner-images {
         line-height: 1.2;
         h1 {
             font-size: 24px;
+            padding-right: 20px;
+            position: relative;
+            right: 28px;
             // margin-left: 16px;
         }
         .h2-color ,h2{
@@ -768,6 +794,8 @@ ul li:hover {
         }
         .line1 {
             width: 40px;
+            position: relative;
+            left: -7px;
         }
 
         .pictures-main2 {
@@ -779,7 +807,7 @@ ul li:hover {
     .about {
         display: flex;
         flex-direction: column;
-        padding: 50px 48px;
+        padding: 50px 36px;
 
         h2 {
             font-size: 18px;
@@ -804,13 +832,17 @@ ul li:hover {
         margin-top: 5px;
     }
 
+    .text-getinto .form-control {
+        padding: 10px 18px;
+    }
+
     .subscribe {
         display: flex;
         flex-direction: column;
         padding: 55px 0px;
 
         img {
-            width: 300px;
+            width: 315px;
             object-fit: contain;
             margin: 0px 0px;
         }
@@ -825,8 +857,8 @@ ul li:hover {
         }
         button.my-button {
             font-size: 12px;
-            width: 200px;
-            padding: 10px 18px;
+            width: 167px;
+            padding: 8px 18px;
         }  
     }
 
@@ -837,6 +869,7 @@ ul li:hover {
         position: relative;
         right: 23px;
         bottom: 19px;
+        padding-right: 41px;
     }
     
     .fa-solid {
@@ -879,7 +912,7 @@ ul li:hover {
         background-image: url(Group\ 9.png);
         background-position: center;
         height: 25vh;
-        padding: 15px 35px;
+        padding: 15px 43px;
         
         .text {
             display: flex;

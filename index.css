@@ -675,7 +675,7 @@ ul li:hover {
     margin-top: 5px;
   }
   .text-getinto .form-control {
-    padding: 10px 18px;
+    padding: 8px 18px;
   }
   .subscribe {
     display: flex;
@@ -734,7 +734,7 @@ ul li:hover {
   .getintouch .text-getinto button.my-button {
     font-size: 16px;
     width: 300px;
-    padding: 10px 18px;
+    padding: 8px 18px;
   }
   .footer1 {
     background-image: url(Group\ 9.png);

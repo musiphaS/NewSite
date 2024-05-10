@@ -674,12 +674,20 @@ ul li:hover {
 
 @media only screen and (max-width:575.98px) {
 
+    header {
+        padding: 0 5px;
+    }
+
     .firstnum {
         height: 140px;
+        width: 275px;
+        margin-left: 21px;
     }
 
     .pictures-main .pic1a {
-        width: 308px;
+        width: 276px;
+        height: 215px;
+        margin-left: 21px;
     }
 
     .carousel-indicators button {

@@ -1035,22 +1035,29 @@ ul li:hover {
 
     .banner-images h2 {
         font-size: 40px;
+        margin-left: 0px;
     }
     .banner-images .h2-color {
         font-size: 50px;
+    }
+    .banner-images .line1 {
+        margin-left: 0px;
+    }
+    .firstnum {
+        margin-left: 0px;
+        width: 300px;
     }
     .banner-images {
     h1 {
             font-size: 50px;
             line-height: 1;
+            margin-left: 0px;
         }
     h4 {
             font-size: 30px;
         }
 
-    .pic1a {
-            margin-bottom: 31px;
-        }
+    
 
     .pic3 {
             display: none;
@@ -1060,15 +1067,23 @@ ul li:hover {
         }
     .pics2a {
         height: 369px;
-        width: 395px;
+        width: 400px;
+        -o-object-fit: cover;
         object-fit: cover;
-        margin-right: 70px;
         position: relative;
         top: -6px;
+        margin-right: -60px;
         }
     .pictures-main2{
         display: none;
     }
+    }
+    .pictures-main .pic1a {
+        margin-top: 8px;
+        width: 300px;
+        height: 218px;
+        margin-left: 0px;
+        margin-bottom: 6px;
     }
 
     .about {
@@ -1248,9 +1263,12 @@ ul li:hover {
     }
 
     .pictures-main2 .under-3 {
-        width: 296px;
+        width: 272px;
     }
 
+    .getintouch {
+        padding: 40px 0px;
+    }
     .banner-images h1 {
         font-size: 65px;
     }
@@ -1317,8 +1335,12 @@ ul li:hover {
         font-size: 30px;
     }
     .pictures-main .pics2a {
-        position: relative;
-        top: 0px;
+    width: 263px;
+    height: 390px;
+    position: relative;
+    right: 15%;
+    top: 0px;
+    object-fit: cover;
     }
 
 

@@ -689,6 +689,10 @@ ul li:hover {
         margin-left: 3px;
     }
 
+    #hamburger div {
+        position: relative;
+        left: 23px;
+    }
     .carousel-indicators button {
        display: none;
     }
@@ -855,7 +859,7 @@ ul li:hover {
         }
         button.my-button {
             font-size: 12px;
-            width: 167px;
+            width: 100%;
             padding: 8px 18px;
         }  
     }

@@ -701,12 +701,10 @@ ul li:hover {
     width: 100%;
     padding: 8px 18px;
   }
-  git .subcritext {
+  .subcritext {
     font-size: 20px;
-    position: relative;
-    right: 16px;
-    bottom: 19px;
-    padding-right: 41px;
+    margin-right: 73px;
+    margin-bottom: 26px;
   }
   .fa-solid {
     font-size: 15px;

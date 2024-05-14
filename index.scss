@@ -45,6 +45,10 @@ header {
     justify-content: space-between;
 }
 
+.contact-color {
+    color: $color-secondary;
+}
+
 ul {
     list-style: none;
     height: 100%;
@@ -443,7 +447,7 @@ ul li:hover {
         font-weight: 500;
         width: 380px;
         padding: 20px 10px;
-        margin-left: 22px;
+        margin: 35px 0px 0px 20px;
     }
     h2 {
         font-size: 40px ;
@@ -484,6 +488,7 @@ ul li:hover {
     align-items: center;
     justify-content: space-around;
     margin-bottom: 80px;
+    padding: 36px 0;
 
     p {
         color:  rgb(0 62 84);
@@ -546,7 +551,7 @@ ul li:hover {
 }
 
 .button2 button {
-    padding: 20px 10px;
+    padding: 15px 10px;
     border: 2px solid rgb(0, 62, 84);
     width: 560px;
     color: #fff;

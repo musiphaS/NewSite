@@ -685,6 +685,7 @@ ul li:hover {
   }
   .subscribe img {
     width: 315px;
+    height: 268px;
     -o-object-fit: contain;
        object-fit: contain;
     margin: 0px 0px;
@@ -700,10 +701,10 @@ ul li:hover {
     width: 100%;
     padding: 8px 18px;
   }
-  .subcritext {
+  git .subcritext {
     font-size: 20px;
     position: relative;
-    right: 23px;
+    right: 16px;
     bottom: 19px;
     padding-right: 41px;
   }

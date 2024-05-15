@@ -866,7 +866,7 @@ ul li:hover {
         }
         button.my-button {
             font-size: 12px;
-            width: 100%;
+            width: 92.5%;
             padding: 8px 18px;
         }  
     }
@@ -1074,13 +1074,13 @@ ul li:hover {
             display: none;
         }
     .pics2a {
-        height: 369px;
-        width: 400px;
+        height: 375px;
+        width: 405px;
         -o-object-fit: cover;
         object-fit: cover;
         position: relative;
-        top: -6px;
-        margin-right: -60px;
+        top: -5px;
+        margin-right: -81px;
         }
     .pictures-main2{
         display: none;
@@ -1119,7 +1119,8 @@ ul li:hover {
         width: 228px;
     }
     .Services img {
-        width: 227px;
+        width: 205px;
+        object-fit: cover;
     }
     .line2 {
         width: 206px;
@@ -1148,11 +1149,13 @@ ul li:hover {
             font-size: 14px;
             width: 200px;
             padding: 10px 20px;
+            margin: 5px 0px 0px 20px;
         }
         img {
             // display: none;
             height: 250px;
             width: 250px;
+            object-fit: cover;
         }
     }
 
@@ -1346,15 +1349,20 @@ ul li:hover {
     width: 263px;
     height: 390px;
     position: relative;
-    right: 15%;
+    right: 17%;
     top: 0px;
     object-fit: cover;
     }
 
+    .pictures-main .pic3 {
+        height: 255px;
+        width: 325px;
+        position: relative;
+        right: 9%;
+    }
 
     .subscribe {
-
-            padding: 80px 40px;
+            padding: 40px 20px;
 
         .button1 button {
             font-size: 20px;
@@ -1365,7 +1373,8 @@ ul li:hover {
             font-size: 35px;
         }
         img {
-            width: 300px;
+            width: 372px;
+            object-fit: cover;
         }
     }
     .footer1 {

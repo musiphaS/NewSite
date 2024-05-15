@@ -1041,7 +1041,7 @@ ul li:hover {
     height: 300px;
   }
 }
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1440px) {
   .footer1 {
     height: 43vh;
     padding: 95px;

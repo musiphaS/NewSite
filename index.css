@@ -168,6 +168,7 @@ ul li:hover {
 }
 .pictures-main div:nth-child(1) {
   align-self: flex-end;
+  margin-right: 75px;
 }
 .pictures-main div:nth-child(3) {
   align-self: flex-end;
@@ -1021,17 +1022,13 @@ ul li:hover {
   .pictures-main .pics2a {
     width: 263px;
     height: 390px;
-    position: relative;
-    right: 17%;
-    top: 0px;
     -o-object-fit: cover;
        object-fit: cover;
   }
   .pictures-main .pic3 {
     height: 255px;
     width: 325px;
-    position: relative;
-    right: 9%;
+    margin-left: 14px;
   }
   .subscribe {
     padding: 40px 20px;
@@ -1054,7 +1051,7 @@ ul li:hover {
     height: 300px;
   }
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1399.98px) {
   .footer1 {
     height: 43vh;
     padding: 95px;
@@ -1062,9 +1059,7 @@ ul li:hover {
   .pictures-main2 .under-2 {
     width: 360px;
     height: 55px;
-    margin-left: 13px;
-    position: relative;
-    left: 3px;
+    margin-left: 5px;
   }
   .pictures-main2 .under-3 {
     width: 207px;
@@ -1073,8 +1068,6 @@ ul li:hover {
     left: 4px;
   }
   .pictures-main .pics2a {
-    position: relative;
-    right: 20%;
     width: 305px;
     height: 390px;
   }
@@ -1093,17 +1086,15 @@ ul li:hover {
   }
   .pictures-main .pic3 {
     width: 330px;
-    position: relative;
-    right: 14%;
+    margin-right: 6px;
   }
   .pictures-main .pic4 {
-    margin-left: 10px;
+    margin-left: 5px;
     height: 390px;
     width: 305px;
-    position: relative;
+    margin-right: -6px;
     -o-object-fit: cover;
        object-fit: cover;
-    right: 40px;
   }
   .Services img {
     width: 415px;
@@ -1129,5 +1120,73 @@ ul li:hover {
   }
   .about p {
     font-size: 22px;
+  }
+}
+@media only screen and (min-width: 1442px) and (max-width: 1600px) {
+  .pictures-main .pic4 {
+    margin-left: 5px;
+    height: 390px;
+    width: 351px;
+    margin-right: 75px;
+  }
+  .pictures-main2 .under-4 {
+    width: 426px;
+    margin-left: 17px;
+    height: 55px;
+  }
+  .banner-images h1 {
+    color: rgb(0, 62, 84);
+    font-size: 90px;
+    line-height: 1.2;
+    font-family: "Baloo1";
+    margin-left: 75px;
+  }
+  .banner-images h2 {
+    font-size: 45px;
+    line-height: 1.2;
+    font-family: "Baloo1";
+    font-weight: 400;
+    color: rgb(0, 62, 84);
+    margin-left: 80px;
+  }
+  .banner-images h4 {
+    color: rgb(0, 62, 84);
+    font-family: "Baloo1";
+    font-size: 19px;
+    margin-bottom: 40px;
+    margin-left: 43px;
+  }
+  .pictures-main {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 46px;
+  }
+  .pictures-main2 {
+    margin-left: 81px;
+  }
+  .firstnum {
+    height: 167px;
+    width: 360px;
+    margin-left: 36px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .pictures-main .pic1a {
+    margin-top: 8px;
+    width: 360px;
+    height: 218px;
+    margin-left: 36px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .pictures-main2 .under-3 {
+    width: 245px;
+    height: 55px;
+    position: relative;
+    left: 4px;
+  }
+  .pictures-main .pics2a {
+    width: 296px;
+    height: 390px;
   }
 }/*# sourceMappingURL=index.css.map */

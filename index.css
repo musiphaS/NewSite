@@ -1068,8 +1068,9 @@ ul li:hover {
     left: 4px;
   }
   .pictures-main .pics2a {
-    width: 305px;
+    width: 290px;
     height: 390px;
+    margin-left: 9px;
   }
   .pictures-main .pic1a {
     margin-top: 8px;
@@ -1089,12 +1090,13 @@ ul li:hover {
     margin-right: 6px;
   }
   .pictures-main .pic4 {
-    margin-left: 5px;
     height: 390px;
-    width: 305px;
-    margin-right: -6px;
+    width: 273px;
+    position: relative;
+    margin-right: 173px;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
+    right: 53px;
   }
   .Services img {
     width: 415px;
@@ -1105,7 +1107,7 @@ ul li:hover {
     margin-left: -2px;
   }
   .pictures-main2 .under-4 {
-    width: 380px;
+    width: 344px;
     margin-left: 17px;
     height: 55px;
   }
@@ -1120,73 +1122,5 @@ ul li:hover {
   }
   .about p {
     font-size: 22px;
-  }
-}
-@media only screen and (min-width: 1442px) and (max-width: 1600px) {
-  .pictures-main .pic4 {
-    margin-left: 5px;
-    height: 390px;
-    width: 351px;
-    margin-right: 75px;
-  }
-  .pictures-main2 .under-4 {
-    width: 426px;
-    margin-left: 17px;
-    height: 55px;
-  }
-  .banner-images h1 {
-    color: rgb(0, 62, 84);
-    font-size: 90px;
-    line-height: 1.2;
-    font-family: "Baloo1";
-    margin-left: 75px;
-  }
-  .banner-images h2 {
-    font-size: 45px;
-    line-height: 1.2;
-    font-family: "Baloo1";
-    font-weight: 400;
-    color: rgb(0, 62, 84);
-    margin-left: 80px;
-  }
-  .banner-images h4 {
-    color: rgb(0, 62, 84);
-    font-family: "Baloo1";
-    font-size: 19px;
-    margin-bottom: 40px;
-    margin-left: 43px;
-  }
-  .pictures-main {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 46px;
-  }
-  .pictures-main2 {
-    margin-left: 81px;
-  }
-  .firstnum {
-    height: 167px;
-    width: 360px;
-    margin-left: 36px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  .pictures-main .pic1a {
-    margin-top: 8px;
-    width: 360px;
-    height: 218px;
-    margin-left: 36px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  .pictures-main2 .under-3 {
-    width: 245px;
-    height: 55px;
-    position: relative;
-    left: 4px;
-  }
-  .pictures-main .pics2a {
-    width: 296px;
-    height: 390px;
   }
 }/*# sourceMappingURL=index.css.map */

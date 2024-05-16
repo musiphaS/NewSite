@@ -1051,7 +1051,7 @@ ul li:hover {
     height: 300px;
   }
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1399.98px) {
   .pictures-main {
     display: flex;
     justify-content: space-between;
@@ -1127,11 +1127,31 @@ ul li:hover {
     font-size: 22px;
   }
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1441px) and (max-width: 1600px) {
   .pictures-main .pic4 {
     height: 390px;
-    /* position: relative; */
-    margin-right: 137px;
-    width: 377px;
+    width: 345px;
+    position: relative;
+    right: 0px;
+  }
+  .pictures-main2 .under-3 {
+    width: 278px;
+    height: 55px;
+    position: relative;
+    left: 4px;
+  }
+  .pictures-main .pics2a {
+    width: 362px;
+    height: 390px;
+    margin-left: 10px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .pictures-main .pic3 {
+    width: 420px;
+    margin-right: -38px;
+    -o-object-fit: fill;
+       object-fit: fill;
+    height: 250px;
   }
 }/*# sourceMappingURL=index.css.map */

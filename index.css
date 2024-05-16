@@ -1051,7 +1051,7 @@ ul li:hover {
     height: 300px;
   }
 }
-@media only screen and (min-width: 1399.98px) {
+@media only screen and (min-width: 1024px) {
   .pictures-main {
     display: flex;
     justify-content: space-between;
@@ -1127,31 +1127,25 @@ ul li:hover {
     font-size: 22px;
   }
 }
-@media only screen and (min-width: 1441px) and (max-width: 1600px) {
-  .pictures-main .pic4 {
-    height: 390px;
-    width: 345px;
-    position: relative;
-    right: 0px;
-  }
-  .pictures-main2 .under-3 {
-    width: 278px;
-    height: 55px;
-    position: relative;
-    left: 4px;
-  }
-  .pictures-main .pics2a {
-    width: 362px;
-    height: 390px;
-    margin-left: 10px;
+@media only screen and (min-width: 1824px) {
+  .firstnum {
+    height: 162px;
+    width: 614px;
+    margin-left: 36px;
     -o-object-fit: cover;
        object-fit: cover;
   }
-  .pictures-main .pic3 {
-    width: 420px;
-    margin-right: -38px;
-    -o-object-fit: fill;
-       object-fit: fill;
-    height: 250px;
+  .pictures-main .pic1a {
+    margin-top: 8px;
+    width: 614px;
+    height: 218px;
+    margin-left: 36px;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  .pictures-main2 .under-1 {
+    width: 560px;
+    height: 55px;
+    margin-left: -2px;
   }
 }/*# sourceMappingURL=index.css.map */

@@ -1339,7 +1339,7 @@ ul li:hover {
 
 }
  
-@media only screen and (min-width: 1399.98px) {
+@media only screen and (min-width: 1024px) {
 
     .pictures-main {
         display: flex;
@@ -1451,60 +1451,90 @@ ul li:hover {
     }
 }
 
- @media only screen and (min-width: 1441px) and (max-width: 1600px) {
+@media only screen and (min-width: 1824px) {
 
-     .pictures-main .pic4 {
-        height: 390px;
-        width: 345px;
-        position: relative;
-        right: 0px;
-        // margin-right: 47px;
-    }
-
-    .pictures-main2 .under-3 {
-        width: 278px;
-        height: 55px;
-        position: relative;
-        left: 4px;
-    }
-    .pictures-main .pics2a {
-        width: 362px;
-        height: 390px;
-        margin-left: 10px;
+    // .pictures-main .pics2a {
+    //     width: 363px;
+    //     height: 390px;
+    //     margin-right: 193px;
+    //     object-fit: cover;
+    // }
+    .firstnum {
+        height: 162px;
+        width: 614px;
+        margin-left: 36px;
         object-fit: cover;
     }
-    .pictures-main .pic3 {
-        width: 420px;
-        margin-right: -38px;
-        object-fit: fill;
-        height: 250px;
+    .pictures-main .pic1a {
+        margin-top: 8px;
+        width: 614px;
+        height: 218px;
+        margin-left: 36px;
+        -o-object-fit: cover;
+        object-fit: cover;
     }
+    .pictures-main2 .under-1 {
+        width: 560px;
+        height: 55px;
+        margin-left: -2px;
+    }
+    
+  }
 
-//     // .pictures-main .pic3 {
-//     //     width: 380px;
-//     //     margin-right: 6px;
-//     // }
+//  @media only screen and (min-width: 1441px) and (max-width: 1600px) {
 
-//     // .pictures-main2 .under-4 {
-//     //     margin-left: 122px;
-//     //     height: 55px;
-//     //     width: 573px;
-//     //     object-fit: cover;
-//     // }
-//     // .firstnum {
-//     //     height: 162px;
-//     //     width: 406px;
-//     //     /* margin-left: 36px; */
-//     // }
-//     // .pictures-main .pic1a {
-//     //     margin-top: 8px;
-//     //     width: 406px;
-//     //     height: 218px;
-//     //     margin-left: 36px;
-//     //     // -o-object-fit: cover;
-//     //     object-fit: cover;
-//     // }
-}
+//      .pictures-main .pic4 {
+//         height: 390px;
+//         width: 345px;
+//         position: relative;
+//         right: 0px;
+//         // margin-right: 47px;
+//     }
+
+//     .pictures-main2 .under-3 {
+//         width: 278px;
+//         height: 55px;
+//         position: relative;
+//         left: 4px;
+//     }
+//     .pictures-main .pics2a {
+//         width: 362px;
+//         height: 390px;
+//         margin-left: 10px;
+//         object-fit: cover;
+//     }
+//     .pictures-main .pic3 {
+//         width: 420px;
+//         margin-right: -38px;
+//         object-fit: fill;
+//         height: 250px;
+//     }
+
+// //     // .pictures-main .pic3 {
+// //     //     width: 380px;
+// //     //     margin-right: 6px;
+// //     // }
+
+// //     // .pictures-main2 .under-4 {
+// //     //     margin-left: 122px;
+// //     //     height: 55px;
+// //     //     width: 573px;
+// //     //     object-fit: cover;
+// //     // }
+// //     // .firstnum {
+// //     //     height: 162px;
+// //     //     width: 406px;
+// //     //     /* margin-left: 36px; */
+// //     // }
+// //     // .pictures-main .pic1a {
+// //     //     margin-top: 8px;
+// //     //     width: 406px;
+// //     //     height: 218px;
+// //     //     margin-left: 36px;
+// //     //     // -o-object-fit: cover;
+// //     //     object-fit: cover;
+// //     // }
+// }
     
 
 // @media only screen and (min-width: 1442px) and (max-width: 1600px){

@@ -774,7 +774,7 @@ ul li:hover {
     margin-left: 35px;
   }
 }
-@media only screen and (min-width: 577px) and (max-width: 992px) {
+@media only screen and (min-width: 577px) and (max-width: 768px) {
   .main-navbar {
     display: flex;
     justify-content: row;
@@ -815,6 +815,15 @@ ul li:hover {
     margin-left: 0px;
     width: 300px;
   }
+  .banner-images .pics2a {
+    height: 396px;
+    width: 601px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    position: relative;
+    top: -1px;
+    margin-right: 4px;
+  }
   .banner-images h1 {
     font-size: 50px;
     line-height: 1;
@@ -829,21 +838,12 @@ ul li:hover {
   .banner-images .pic4 {
     display: none;
   }
-  .banner-images .pics2a {
-    height: 375px;
-    width: 405px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    position: relative;
-    top: -5px;
-    margin-right: -81px;
-  }
   .banner-images .pictures-main2 {
     display: none;
   }
   .pictures-main .pic1a {
     margin-top: 8px;
-    width: 300px;
+    width: 330px;
     height: 218px;
     margin-left: 0px;
     margin-bottom: 6px;
@@ -861,6 +861,10 @@ ul li:hover {
   .about img {
     width: 250px;
     height: 250px;
+  }
+  .pictures-main .firstnum {
+    height: 167px;
+    width: 328px;
   }
   .about img {
     width: 250px;

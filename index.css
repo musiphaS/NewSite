@@ -1189,4 +1189,19 @@ ul li:hover {
     height: 55px;
     width: 93%;
   }
+  .pictures-main2 .under-1 {
+    width: 379px;
+    height: 55px;
+    margin-left: 1px;
+  }
+  .pictures-main2 .under-2 {
+    width: 100%;
+    height: 55px;
+    margin-left: 12px;
+  }
+  .pictures-main2 .under-4 {
+    margin-left: 17px;
+    height: 55px;
+    width: 436px;
+  }
 }/*# sourceMappingURL=index.css.map */

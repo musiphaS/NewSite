@@ -1059,7 +1059,7 @@ ul li:hover {
     right: 20px;
   }
   .footer1 {
-    height: 43vh;
+    height: 28vh;
     padding: 95px;
   }
   .pictures-main2 .under-2 {
@@ -1128,7 +1128,7 @@ ul li:hover {
 }
 @media only screen and (min-width: 1400px) {
   .pictures-main2 .under-1 {
-    width: 320px;
+    width: 301px;
     height: 55px;
     margin-left: 1px;
   }

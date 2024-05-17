@@ -17,12 +17,6 @@ header a {
   color: white;
 }
 
-.firstnum {
-  height: 136px;
-  width: 262px;
-  margin-left: 36px;
-}
-
 header {
   padding: 0 20px;
   height: 50px;
@@ -164,68 +158,68 @@ ul li:hover {
 
 .pictures-main {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  margin: 0px 20px;
 }
 .pictures-main div:nth-child(1) {
   align-self: flex-end;
-  margin-right: 75px;
 }
 .pictures-main div:nth-child(3) {
   align-self: flex-end;
 }
+.pictures-main .firstnum {
+  height: 136px;
+  width: 310.5px;
+}
 .pictures-main .pic1a {
   margin-top: 8px;
-  width: 262px;
+  width: 310.5px;
   height: 218px;
-  margin-left: 36px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 .pictures-main .pics2a {
-  width: 285px;
+  width: 302.5px;
   height: 390px;
-  position: relative;
-  right: 23%;
-  top: 0px;
+  margin-right: 12px;
+  margin-bottom: 3px;
 }
 .pictures-main .pic3 {
   height: 255px;
-  width: 315px;
-  position: relative;
-  right: 17%;
+  width: 302.5px;
+  margin-bottom: 3px;
 }
 .pictures-main .pic4 {
   margin-left: 10px;
   height: 390px;
-  width: 305px;
-  right: 37px;
-  position: relative;
+  width: 302.5px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 .pictures-main2 {
   display: flex;
+  justify-content: space-evenly;
   margin-top: 10px;
   opacity: 20%;
+  margin: 0px 10px;
+  margin-top: 6px;
 }
 .pictures-main2 .under-1 {
-  width: 262px;
-  height: 55px;
-  margin-left: 36px;
+  width: 310.5px;
+  height: 43px;
 }
 .pictures-main2 .under-2 {
-  width: 330px;
-  margin-left: 10px;
+  width: 358.5px;
+  height: 43px;
 }
 .pictures-main2 .under-3 {
-  width: 183px;
-  margin-left: 10px;
-  height: 54px;
+  width: 200px;
+  height: 43px;
 }
 .pictures-main2 .under-4 {
-  width: 335px;
-  margin-left: 10px;
+  width: 350px;
+  height: 43px;
 }
 
 .about {
@@ -1054,66 +1048,14 @@ ul li:hover {
 @media only screen and (min-width: 1024px) {
   .pictures-main {
     display: flex;
-    justify-content: space-between;
-    position: relative;
-    right: 20px;
+    justify-content: space-evenly;
+    align-items: end;
   }
   .footer1 {
     padding: 95px;
   }
-  .pictures-main2 .under-2 {
-    width: 360px;
-    height: 55px;
-    margin-left: 5px;
-  }
-  .pictures-main2 .under-3 {
-    width: 207px;
-    height: 55px;
-    position: relative;
-    left: 4px;
-  }
-  .pictures-main .pics2a {
-    width: 285px;
-    height: 390px;
-    margin-left: 1px;
-  }
-  .pictures-main .pic1a {
-    margin-top: 8px;
-    width: 320px;
-    height: auto;
-    margin-left: 36px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  .firstnum {
-    height: auto;
-    width: 320px;
-    margin-left: 36px;
-  }
-  .pictures-main .pic3 {
-    width: 285px;
-    margin-right: 6px;
-  }
-  .pictures-main .pic4 {
-    height: 390px;
-    /* position: relative; */
-    margin-left: -6px;
-    width: 320px;
-  }
   .Services img {
     width: 95%;
-  }
-  .pictures-main2 .under-1 {
-    width: 318px;
-    height: 55px;
-    margin-left: -2px;
-  }
-  .pictures-main2 .under-4 {
-    margin-left: 17px;
-    height: 55px;
-  }
-  .pictures-main2 {
-    margin-left: 15px;
   }
   .about {
     padding: 75px 95px;
@@ -1126,88 +1068,102 @@ ul li:hover {
   }
 }
 @media only screen and (min-width: 1400px) {
-  .pictures-main2 .under-1 {
-    width: 319px;
-    height: 55px;
-    margin-left: 1px;
-  }
-  .pictures-main2 .under-2 {
-    width: 93%;
-    height: 55px;
-    margin-left: 12px;
-  }
   .footer1 {
     height: 48vh;
   }
-  .firstnum {
-    height: auto;
-    width: 100%;
-    margin-left: 36px;
+  .pictures-main .firstnum {
+    height: 136px;
+    width: 358.5px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+  }
+  .pictures-main {
+    margin: 0px 25px;
   }
   .pictures-main .pic1a {
     margin-top: 8px;
-    width: 100%;
-    height: auto;
-    margin-left: 36px;
     -o-object-fit: cover;
        object-fit: cover;
+    width: 358.5px;
+    margin-left: 3px;
   }
   .pictures-main .pics2a {
-    width: 345px;
-    height: 100%;
-    margin-left: -39px;
-    position: relative;
+    margin-right: 40px;
     -o-object-fit: cover;
     object-fit: cover;
-    left: -39px;
   }
   .pictures-main .pic3 {
-    width: 285px;
     margin-right: 6px;
     position: relative;
-    right: 10%;
+    right: 15px;
   }
   .pictures-main .pic4 {
-    height: 100%;
-    /* position: relative; */
-    /* margin-left: -6px; */
-    width: 350px;
-    position: relative;
-    right: 18px;
+    margin-left: 0px;
+    height: 393px;
   }
-  .pictures-main2 .under-4 {
-    margin-left: 17px;
-    height: 55px;
-    width: 436px;
+  .pictures-main2 {
+    margin-top: 12px;
   }
-  .pictures-main div:nth-child(1) {
-    align-self: flex-end;
-    margin-right: 122px;
+  .pictures-main2 .under-1 {
+    width: 361px;
+    height: 43px;
+  }
+  .pictures-main .pics2a {
+    margin-bottom: 1px;
+  }
+  .pictures-main .pic3 {
+    margin-bottom: 1px;
   }
 }
 @media only screen and (min-width: 1500px) {
-  .pictures-main2 .under-4 {
-    margin-left: 17px;
-    height: 55px;
-    width: 93%;
+  .pictures-main .firstnum {
+    height: 200px;
+    width: 500px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+    -o-object-fit: cover;
+    object-fit: cover;
   }
-  .pictures-main2 .under-1 {
-    width: 379px;
-    height: 55px;
-    margin-left: 1px;
+  .pictures-main .pics2a {
+    margin-right: 40px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 500px;
+    height: 490px;
+  }
+  .pictures-main .pic1a {
+    margin-top: 8px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 500px;
+    margin-left: 3px;
+    height: 275px;
+  }
+  .pictures-main .pic3 {
+    height: 255px;
+    width: 500px;
+  }
+  .pictures-main .pic4 {
+    width: 415px;
+    height: 490px;
   }
   .pictures-main2 .under-2 {
-    width: 100%;
+    width: 585px;
     height: 55px;
-    margin-left: 12px;
+  }
+  .pictures-main2 .under-1 {
+    width: 501px;
+    height: 55px;
+  }
+  .pictures-main2 .under-3 {
+    height: 55px;
   }
   .pictures-main2 .under-4 {
-    margin-left: 17px;
+    width: 350px;
     height: 55px;
-    width: 436px;
   }
   .about {
-    padding: 75px 50px;
+    padding: 75px 90px;
     display: flex;
     align-items: center;
     justify-content: space-between;

@@ -1048,7 +1048,7 @@ ul li:hover {
   }
   .footer1 {
     background-position: right;
-    height: 300px;
+    height: 48vh;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -1059,7 +1059,6 @@ ul li:hover {
     right: 20px;
   }
   .footer1 {
-    height: 48vh;
     padding: 95px;
   }
   .pictures-main2 .under-2 {

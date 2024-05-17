@@ -206,6 +206,7 @@ ul li:hover {
 .pictures-main {
     display: flex;
     justify-content: space-between;
+    // flex-wrap: wrap;
     // margin-top: 35px;
 
     div:nth-child(1) {
@@ -243,7 +244,7 @@ ul li:hover {
     margin-left: 10px;
     height: 390px;
     width: 305px;
-    right: 54px;
+    right: 37px;
     position: relative;
     object-fit: cover;
     }
@@ -274,7 +275,7 @@ ul li:hover {
     height: 54px;
     }
     .under-4 {
-        width: 394px;
+        width: 335px;
         margin-left: 10px;
         // opacity: 50%;
     }
@@ -1369,21 +1370,23 @@ ul li:hover {
     .pictures-main .pics2a {
         // position: relative;
         // right: 20%;
-        width: 320px;
+        width: 285px;
         height: 390px;
-        margin-left: 10px;
+        margin-left: 1px;
+        // position: relative;
+        // right: 43%;
     }
 
     .pictures-main .pic1a {
         margin-top: 8px;
         width: 320px;
-        height: 218px;
+        height: auto;
         margin-left: 36px;
         object-fit: cover;
     }
 
     .firstnum {
-        height: 136px;
+        height: auto;
         width: 320px;
         margin-left: 36px;
     }
@@ -1394,7 +1397,7 @@ ul li:hover {
     //     margin-left: 36px;
     // }
     .pictures-main .pic3 {
-        width: 385px;
+        width: 285px;
         margin-right: 6px;
         // position: relative;
         // right: 14%;
@@ -1418,7 +1421,7 @@ ul li:hover {
     }
 
     .Services img {
-        width: 415px;
+        width: 95%;
     }
     // .pictures-main2 .under-4 {
     //     width: 418px;
@@ -1434,7 +1437,7 @@ ul li:hover {
     .pictures-main2 .under-4 {
         margin-left: 17px;
         height: 55px;
-        width: 520px;
+        // width: 520px;
     }
    
     .pictures-main2 {
@@ -1451,35 +1454,50 @@ ul li:hover {
     }
 }
 
-@media only screen and (min-width: 1824px) {
+@media only screen and (min-width: 1400px) {
 
-    // .pictures-main .pics2a {
-    //     width: 363px;
-    //     height: 390px;
-    //     margin-right: 193px;
-    //     object-fit: cover;
-    // }
-    .firstnum {
-        height: 162px;
-        width: 614px;
-        margin-left: 36px;
-        object-fit: cover;
-    }
-    .pictures-main .pic1a {
-        margin-top: 8px;
-        width: 614px;
-        height: 218px;
-        margin-left: 36px;
-        -o-object-fit: cover;
-        object-fit: cover;
-    }
     .pictures-main2 .under-1 {
-        width: 560px;
+        width: 320px;
         height: 55px;
-        margin-left: -2px;
+        margin-left: 1px;
     }
-    
-  }
+
+    .pictures-main2 .under-2 {
+        width: 445px;
+        height: 55px;
+        margin-left: 12px;
+    }
+
+    .pictures-main .pics2a {
+        width: 345px;
+        height: 390px;
+        margin-left: -39px;
+        object-fit: cover;
+    }
+    .pictures-main .pic3 {
+        width: 285px;
+        margin-right: 6px;
+        position: relative;
+        right: 18%;
+    }
+    .pictures-main .pic4 {
+        height: 390px;
+        /* position: relative; */
+        margin-left: -6px;
+        width: 348px;
+    }
+    .pictures-main div:nth-child(1) {
+        align-self: flex-end;
+        margin-right: 122px;
+    }
+
+}
+
+
+
+// @media only screen and (min-width: 1500px) {
+
+// }
 
 //  @media only screen and (min-width: 1441px) and (max-width: 1600px) {
 

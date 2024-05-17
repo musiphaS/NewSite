@@ -1128,12 +1128,12 @@ ul li:hover {
 }
 @media only screen and (min-width: 1400px) {
   .pictures-main2 .under-1 {
-    width: 301px;
+    width: 319px;
     height: 55px;
     margin-left: 1px;
   }
   .pictures-main2 .under-2 {
-    width: 445px;
+    width: 93%;
     height: 55px;
     margin-left: 12px;
   }
@@ -1176,7 +1176,7 @@ ul li:hover {
   .pictures-main2 .under-4 {
     margin-left: 17px;
     height: 55px;
-    width: 86%;
+    width: 436px;
   }
   .pictures-main div:nth-child(1) {
     align-self: flex-end;

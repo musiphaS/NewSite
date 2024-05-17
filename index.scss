@@ -1540,6 +1540,12 @@ ul li:hover {
         height: 55px;
         width: 436px;
     }
+    .about {
+        padding: 75px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
     .footer1 {
         height: 48vh;
     }

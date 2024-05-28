@@ -168,7 +168,7 @@ ul li:hover {
 }
 
 .images-22 {
-  margin-bottom: 7px;
+  margin-bottom: 8px;
 }
 
 .images-3 {
@@ -188,12 +188,14 @@ ul li:hover {
 .images-5 {
   width: 24%;
   height: 55px;
-  margin-top: 7px;
+  margin-top: 8px;
 }
 
 .images-6 {
   width: 29%;
   height: 55px;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 .images-7 {
@@ -289,7 +291,7 @@ ul li:hover {
 .Services img {
   width: 395px;
   height: 174px;
-  margin: 9px 9px 0px 9px;
+  margin: 2px 3px 0px 0px;
 }
 .Services h2 {
   font-size: 40px;
@@ -1059,7 +1061,7 @@ ul li:hover {
     padding: 95px;
   }
   .Services img {
-    width: 95%;
+    width: 100%;
   }
   .about {
     padding: 75px 50px;
